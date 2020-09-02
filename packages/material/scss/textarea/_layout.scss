@@ -26,7 +26,7 @@
 
 
         .k-textarea .k-input {
-            padding-top: calc( #{$textarea-padding-y} + #{$textarea-line-height-em} );
+            padding-top: calc( #{$textarea-padding-y} + #{$textarea-line-height * 1em} );
         }
 
         .k-label {

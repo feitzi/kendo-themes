@@ -923,21 +923,22 @@ $input-border-radius: $border-radius !default;
 $input-border-radius-sm: $border-radius !default;
 $input-border-radius-lg: $border-radius !default;
 
-$input-padding-x: $padding-x !default;
-$input-padding-y: $padding-y !default;
 $input-font-family: $font-family !default;
-$input-font-size: $font-size !default;
-$input-line-height: $form-line-height !default;
-$input-line-height-em: $input-line-height * 1em;
 
+$input-padding-x: $padding-x !default;
 $input-padding-x-sm: ($input-padding-x / 2) !default;
-$input-padding-y-sm: ($input-padding-y / 2) !default;
-$input-font-size-sm: $input-font-size !default;
-$input-line-height-sm: $form-line-height-sm !default;
-
 $input-padding-x-lg: ($input-padding-x * 1.5) !default;
+
+$input-padding-y: $padding-y !default;
+$input-padding-y-sm: ($input-padding-y / 2) !default;
 $input-padding-y-lg: ($input-padding-y * 1.5) !default;
+
+$input-font-size: $font-size !default;
+$input-font-size-sm: $input-font-size !default;
 $input-font-size-lg: $input-font-size !default;
+
+$input-line-height: $form-line-height !default;
+$input-line-height-sm: $form-line-height-sm !default;
 $input-line-height-lg: $form-line-height-lg !default;
 
 $input-calc-height: calc( #{$input-line-height * 1em} + #{$input-padding-y * 2} + #{$input-border-height} ) !default;
@@ -999,7 +1000,6 @@ $textarea-padding-y: $input-padding-y !default;
 $textarea-font-family: $input-font-family !default;
 $textarea-font-size: $input-font-size !default;
 $textarea-line-height: $input-line-height !default;
-$textarea-line-height-em: $input-line-height-em !default;
 
 $textarea-padding-x-sm: $input-padding-x-sm !default;
 $textarea-padding-y-sm: $input-padding-y-sm !default;
@@ -1729,6 +1729,29 @@ $datetime-select-focused-text: null !default;
 $datetime-select-focused-border: null !default;
 $datetime-select-focused-gradient: null !default;
 $datetime-select-focused-shadow: $button-focused-shadow !default;
+
+
+// Searchbox
+$searchbox-padding-x: $input-padding-x !default;
+$searchbox-padding-y: $input-padding-y !default;
+$searchbox-border-width: $input-border-width !default;
+$searchbox-border-radius: $input-border-radius !default;
+
+$searchbox-font-family: $input-font-family !default;
+$searchbox-font-size: $input-font-size !default;
+$searchbox-line-height: $input-line-height !default;
+
+$searchbox-bg: $input-bg !default;
+$searchbox-text: $input-text !default;
+$searchbox-border: $input-border !default;
+
+$searchbox-hover-bg: $input-hovered-bg !default;
+$searchbox-hover-text: $input-hovered-text !default;
+$searchbox-hover-border: $input-hovered-border !default;
+
+$searchbox-focus-bg: $input-focused-bg !default;
+$searchbox-focus-text: $input-focused-text !default;
+$searchbox-focus-border: $input-focused-border !default;
 
 
 // Menu
